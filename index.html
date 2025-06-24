@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankit Mahant - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1><span class="highlight">Ankit</span> Mahant</h1>
+
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-in">
+    <img src="AnkitImage.jpg" alt="Ankit Mahant" class="hero-img"/>
+    <h2>Hello, I'm</h2>
+    <h1>Ankit Mahant</h1>
+    <p>Full Stack Web Developer</p>
+
+    <div class="social-icons">
+  <a href="https://wa.me/919834532457" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://www.instagram.com/ayaanofficial005/" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://github.com/AnkitMahant" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="mailto:ankituttammahant@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+  <a href="https://www.linkedin.com/in/ankit-mahant-14535734a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
+ <a href="AnkitMahant.pdf" download class="download-btn" type="application/octet-stream">Download Resume</a>
+
+
+  </section>
+ 
+
+
+  <section id="about" class="section" data-aos="fade-up">
+   <h2 class="section-title">About <span>Me</span></h2>
+
+    <img src="AnkitImage.jpg" alt="Ankit Mahant" class="about-img"/>
+    <p><h3>Full Stack Java Developer with hands-on experience in Java, Spring Boot, React, and MySQL. Skilled in building scalable web apps, REST APIs, clean code, and responsive UI. Passionate about solving real-world problems with efficient software.
+</h3></p>
+  </section>
+
+  <section id="skills" class="section" data-aos="fade-up">
+   <h2 class="section-title">Skills</h2>
+    <ul class="skills-list">
+  <li>Java (Core & Advanced)</li>
+  <li>Spring Boot</li>
+  <li>Spring MVC</li>
+  <li>Hibernate</li>
+  <li>JSP & Servlets</li>
+  <li>REST APIs</li>
+  <li>Microservices</li>
+  <li>HTML & CSS</li>
+  <li>JavaScript</li>
+  <li>MySQL</li>
+  <li>Git & Maven</li>
+  <li>VS Code & Eclipse</li>
+  <li>Postman</li>
+</ul>
+
+  </section>
+
+  <section id="projects" class="section" data-aos="zoom-in">
+    <h2 class="section-title">Projects</h2>
+  <div class="project-card">
+  <h3>Bank Management System</h3>
+  <p><strong>Tech Stack:</strong> Java, Spring Boot, MySQL, REST APIs, Postman</p>
+  <ul class="project-points">
+    <li>Engineered a secure full-stack banking application enabling seamless account and transaction management for users and admins.</li>
+    <li>Built RESTful APIs using Spring Boot to handle login authentication, customer data, and account operations.</li>
+    <li>Applied DAO design pattern and layered architecture for clean backend logic and maintainability.</li>
+    <li>Integrated MySQL database with real-time CRUD operations; tested endpoints using Postman and documented with Swagger.</li>
+    <li>Implemented role-based access control, backend validation, and error handling for robust user experience.</li>
+  </ul>
+</div>
+
+
+<div class="project-card">
+  <h3>Employee Management System</h3>
+  <p><strong>Tech Stack:</strong> Java, JDBC, MySQL, MVC</p>
+  <ul class="project-points">
+    <li>Created a Java-based CRUD system for managing employee records in an organization.</li>
+    <li>Integrated MySQL database using JDBC and built modular architecture (Model, DAO, Service layers).</li>
+    <li>Implemented features like Add, Edit, Delete, View, and Sort by Name.</li>
+    <li>Focused on clean code structure and reusable components.</li>
+  </ul>
+</div>
+
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+   <h2 class="section-title">Contact</h2>
+    <form action="https://formspree.io/f/mwkzgyoj" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ankit Mahant. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
